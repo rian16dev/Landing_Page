@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria de Treino Online | Transforme Seu Corpo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="bg-black text-gray-100">
+    <!-- Header -->
+    <header class="fixed w-full bg-black bg-opacity-90 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="text-yellow-400 text-2xl font-bold">M</span>
+                <span class="text-white text-xl font-bold">ENTORIA</span>
+            </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-white hover:text-yellow-400 transition">Início</a>
+                <a href="#sobre" class="text-white hover:text-yellow-400 transition">Sobre</a>
+                <a href="#beneficios" class="text-white hover:text-yellow-400 transition">Benefícios</a>
+                <a href="#depoimentos" class="text-white hover:text-yellow-400 transition">Depoimentos</a>
+                <a href="https://wa.me/message/JNG22DV3L47EE1" class="text-white hover:text-yellow-400 transition">Contato</a>
+            </div>
+            
+            <a href="https://wa.me/message/JNG22DV3L47EE1" class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-6 py-2 rounded-full transition btn-primary">
+                Quero Começar
+            </a>
+            
+            <button class="md:hidden text-white focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-black py-4 px-6">
+            <a href="#home" class="block py-2 text-white hover:text-yellow-400">Início</a>
+            <a href="#sobre" class="block py-2 text-white hover:text-yellow-400">Sobre</a>
+            <a href="#beneficios" class="block py-2 text-white hover:text-yellow-400">Benefícios</a>
+            <a href="#depoimentos" class="block py-2 text-white hover:text-yellow-400">Depoimentos</a>
+            <a href="https://wa.me/message/JNG22DV3L47EE1" class="block py-2 text-white hover:text-yellow-400">Contato</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6 py-20 md:py-32 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-12 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                    <span class="text-yellow-400">TRANSFORME</span>
+                    <br>
+                    <span class="text-white">SEU CORPO E SUA MENTE</span>
+                </h1>
+                <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+                    Mentoria personalizada para alcançar seus objetivos físicos e mentais com treinos cientificamente comprovados e acompanhamento individualizado.
+                </p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="https://wa.me/message/JNG22DV3L47EE1" class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 rounded-full text-center transition btn-primary">
+                        Quero Minha Avaliação Grátis
+                    </a>
+                    <a href="#sobre" class="border-2 border-yellow-400 hover:bg-yellow-400 hover:bg-opacity-20 text-yellow-400 font-bold px-8 py-4 rounded-full text-center transition">
+                        Saiba Mais
+                    </a>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-yellow-400 rounded-lg transform -rotate-6 opacity-30"></div>
+                    <div class="relative bg-black rounded-lg overflow-hidden border-2 border-yellow-400">
+                        <img src="/img/primeira.jpg" alt="Personal trainer sorrindo em uma academia, demonstrando um exercício com halteres, com destaque para os músculos trabalhados" class="w-full h-auto" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="py-20 bg-gradient-to-b from-black to-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-yellow-400">SOBRE A MENTORIA</h2>
+                <div class="h-1 w-24 bg-yellow-400 mx-auto mb-6"></div>
+                <p class="text-gray-300 max-w-3xl mx-auto">
+                    Um programa completo que vai muito além dos treinos, focado em transformações reais e duradouras.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0 md:pr-12">
+                    <img src="/img/photo_2025-05-27_16-20-50.jpg" alt="Homem mostrando evolução física em 12 semanas, com fotos de antes e depois em estilo motivacional" class="w-full rounded-lg shadow-xl" />
+                </div>
+                
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-6 text-white">O Método que Transforma</h3>
+                    
+                    <div class="mb-8">
+                        <div class="flex items-start mb-6">
+                            <div class="bg-yellow-400 rounded-full p-2 mr-4">
+                                <i class="fas fa-dumbbell text-black text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-white mb-2">Treinos Personalizados</h4>
+                                <p class="text-gray-300">
+                                    Planilhas de treino totalmente adaptadas ao seu biotipo, objetivos e equipamentos disponíveis.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                        <div class="flex items-start">
+                            <div class="bg-yellow-400 rounded-full p-2 mr-4">
+                                <i class="fas fa-brain text-black text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-semibold text-white mb-2">Mindset Vencedor</h4>
+                                <p class="text-gray-300">
+                                    Técnicas de mentalidade para manter a consistência e superar obstáculos mentais.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="beneficios" class="py-20 bg-black">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-yellow-400">BENEFÍCIOS EXCLUSIVOS</h2>
+                <div class="h-1 w-24 bg-yellow-400 mx-auto mb-6"></div>
+                <p class="text-gray-300 max-w-3xl mx-auto">
+                    Tudo o que você precisa para uma transformação completa e saudável.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-900 p-8 rounded-xl feature-card transition duration-300">
+                    <div class="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-microphone text-black text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Chamadas Semanais</h3>
+                    <p class="text-gray-300">
+                        Bate-papos individuais para tirar dúvidas, ajustar planilhas e acompanhar seu progresso.
+                    </p>
+                </div>
+                
+                <div class="bg-gray-900 p-8 rounded-xl feature-card transition duration-300">
+                    <div class="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-users text-black text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Comunidade Exclusiva</h3>
+                    <p class="text-gray-300">
+                        Grupo com alunos onde compartilhamos conhecimentos, dicas e motivação diária.
+                    </p>
+                </div>
+                
+                
+                
+                <div class="bg-gray-900 p-8 rounded-xl feature-card transition duration-300">
+                    <div class="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-black text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Acompanhamento</h3>
+                    <p class="text-gray-300">
+                        Análise mensal de medidas, fotos comparativas e ajustes contínuos para otimizar resultados.
+                    </p>
+                </div>
+                
+                
+                <div class="bg-gray-900 p-8 rounded-xl feature-card transition duration-300">
+                    <div class="bg-yellow-400 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-calendar-check text-black text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-4">Resultados em 12 Semanas</h3>
+                    <p class="text-gray-300">
+                        Programa estruturado para garantir transformação visível em apenas 3 meses.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="py-20 bg-gradient-to-b from-gray-900 to-black">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-yellow-400">DEPOIMENTOS</h2>
+                <div class="h-1 w-24 bg-yellow-400 mx-auto mb-6"></div>
+                <p class="text-gray-300 max-w-3xl mx-auto">
+                    O que nossos alunos têm a dizer sobre a mentoria
+                </p>
+            </div>
+            
+           
+                        
+            
+            <div class="text-center mt-16">
+                <a href="https://wa.me/message/JNG22DV3L47EE1" class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 rounded-full inline-block transition btn-primary">
+                    Quero Fazer Parte Também
+                </a>
+            </div>
+       
